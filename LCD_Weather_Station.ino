@@ -373,7 +373,7 @@ lcd.setCursor(0,0);
   lcd.print(" %");
   delay(1500);
   
-  Serial.print("-Tempertura");
+  Serial.print("-Temperature");
   Serial.print(tempf, 1);
   Delete();
   lcd.setCursor(0,0);
