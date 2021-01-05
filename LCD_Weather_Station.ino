@@ -1,6 +1,6 @@
 /*
  Weather Shield and Weather Station with LCD
- By: David Tran and Tomy Nguyen
+ By: David Tran
  January, 2019
 
 based on Mike Grusin's USB Weather Board code: https://www.sparkfun.com/products/10586
@@ -291,10 +291,6 @@ float get_wind_speed()
   lastWindCheck = millis();
 
   windSpeed *= 1.492; //4 * 1.492 = 5.968MPH
-
-  /* Serial.println();
-   Serial.print("Windspeed:");
-   Serial.println(windSpeed);*/
 
   return(windSpeed);
 }
